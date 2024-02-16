@@ -12,7 +12,7 @@ const CustomSubstackWidget = ({
     window.CustomSubstackWidget = {
       substackUrl: substackUrl || "felixramallo.substack.com",
       placeholder: placeholder || "Escribe tu correo electrónico",
-      buttonText: buttonText || "Subscribite",
+      buttonText: buttonText || "Subscribir",
       theme: theme || "custom",
       colors: colors || {
         primary: "#e10613",
@@ -33,7 +33,7 @@ const CustomSubstackWidget = ({
     };
   }, [substackUrl, placeholder, buttonText, theme, colors]); // Dependencias para re-ejecutar si cambian
 
-  return <div id="custom-substack-embed"></div>;
+  return <div id="custom-substack-embed" className=" scale-90 "></div>;
 };
 
 export default CustomSubstackWidget;
