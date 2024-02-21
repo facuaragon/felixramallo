@@ -58,7 +58,7 @@ export default function Home() {
           </h3>
         </div>
         <div className="flex items-center gap-2 w-fit mx-auto text-center pb-28">
-          <h3 className=" text-lg">Suscribite al newsletter aca 👉</h3>
+          <h3 className=" text-lg">Suscribite al newsletter acá 👉</h3>
           <button
             className=" bg-red-600 py-1 px-4 border-2 border-red-600 rounded-md text-white"
             onClick={redirect}
